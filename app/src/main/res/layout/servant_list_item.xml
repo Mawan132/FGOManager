@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/servantIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/default_serv_icon"
+        tools:srcCompat="@drawable/default_serv_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/servantName"
+            android:text="@string/default_serv_name"
+            style="@style/servantListItemName" />
+
+        <TextView
+            android:id="@+id/servantID"
+            style="@style/servantListItem"
+            android:text="@string/default_serv_class" />
+
+        <TextView
+            android:id="@+id/servantRarity"
+            style="@style/servantListItem"
+            android:text="@string/default_serv_rarity" />
+
+    </LinearLayout>
+
+</LinearLayout>

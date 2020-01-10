@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FGOManager</string>
+    <string name="button_list_servant">All Servants</string>
+    <string name="button_list_owned">My Servants</string>
+    <string name="button_list_resources">Resources needed</string>
+
+    <string name="tv_servlist_all"> All servants</string>
+    <string name="tv_servlist_owned">Your servants</string>
+
+    <string name="default_serv_name">Default Servant Name </string>
+    <string name="default_serv_class">Default Servant Class </string>
+    <string name="default_serv_rarity">★ ★ ★ ★ </string>
+
+    <string name="update_title">Do you wish to update the servant Database ?</string>
+    <string name="update_btn">Update</string>
+    <string name="clear_btn">Clear</string>
+
+    <string name="problem">A problem has occured</string>
+    <string name="update_database_start">Starting the update</string>
+    <string name="update_database_end">Database updated (Warning : the display may take some time/be slow)</string>
+    <string name="clear_database">Clearing the database</string>
+</resources>
